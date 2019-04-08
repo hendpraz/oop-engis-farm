@@ -1,0 +1,109 @@
+# Project: TubesOOPVe2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o creation.o player.o farmanimal.o cell.o land.o barn.o map.o vision.o facility.o grassland.o coop.o well.o mixer.o truck.o eggproducingfarmanimal.o meatproducingfarmanimal.o milkproducingfarmanimal.o product.o farmproduct.o sideproduct.o chicken.o chickenegg.o trash2.o beefrolade.o butter.o chickenmeat.o omelet.o
+LINKOBJ  = main.o creation.o player.o farmanimal.o cell.o land.o barn.o map.o vision.o facility.o grassland.o coop.o well.o mixer.o truck.o eggproducingfarmanimal.o meatproducingfarmanimal.o milkproducingfarmanimal.o product.o farmproduct.o sideproduct.o chicken.o chickenegg.o trash2.o beefrolade.o butter.o chickenmeat.o omelet.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = TubesOOPVe2.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+creation.o: creation.cpp
+	$(CPP) -c creation.cpp -o creation.o $(CXXFLAGS)
+
+player.o: player.cpp
+	$(CPP) -c player.cpp -o player.o $(CXXFLAGS)
+
+farmanimal.o: farmanimal.cpp
+	$(CPP) -c farmanimal.cpp -o farmanimal.o $(CXXFLAGS)
+
+cell.o: cell.cpp
+	$(CPP) -c cell.cpp -o cell.o $(CXXFLAGS)
+
+land.o: land.cpp
+	$(CPP) -c land.cpp -o land.o $(CXXFLAGS)
+
+barn.o: barn.cpp
+	$(CPP) -c barn.cpp -o barn.o $(CXXFLAGS)
+
+map.o: map.cpp
+	$(CPP) -c map.cpp -o map.o $(CXXFLAGS)
+
+vision.o: vision.cpp
+	$(CPP) -c vision.cpp -o vision.o $(CXXFLAGS)
+
+facility.o: facility.cpp
+	$(CPP) -c facility.cpp -o facility.o $(CXXFLAGS)
+
+grassland.o: grassland.cpp
+	$(CPP) -c grassland.cpp -o grassland.o $(CXXFLAGS)
+
+coop.o: coop.cpp
+	$(CPP) -c coop.cpp -o coop.o $(CXXFLAGS)
+
+well.o: well.cpp
+	$(CPP) -c well.cpp -o well.o $(CXXFLAGS)
+
+mixer.o: mixer.cpp
+	$(CPP) -c mixer.cpp -o mixer.o $(CXXFLAGS)
+
+truck.o: truck.cpp
+	$(CPP) -c truck.cpp -o truck.o $(CXXFLAGS)
+
+eggproducingfarmanimal.o: eggproducingfarmanimal.cpp
+	$(CPP) -c eggproducingfarmanimal.cpp -o eggproducingfarmanimal.o $(CXXFLAGS)
+
+meatproducingfarmanimal.o: meatproducingfarmanimal.cpp
+	$(CPP) -c meatproducingfarmanimal.cpp -o meatproducingfarmanimal.o $(CXXFLAGS)
+
+milkproducingfarmanimal.o: milkproducingfarmanimal.cpp
+	$(CPP) -c milkproducingfarmanimal.cpp -o milkproducingfarmanimal.o $(CXXFLAGS)
+
+product.o: product.cpp
+	$(CPP) -c product.cpp -o product.o $(CXXFLAGS)
+
+farmproduct.o: farmproduct.cpp
+	$(CPP) -c farmproduct.cpp -o farmproduct.o $(CXXFLAGS)
+
+sideproduct.o: sideproduct.cpp
+	$(CPP) -c sideproduct.cpp -o sideproduct.o $(CXXFLAGS)
+
+chicken.o: chicken.cpp
+	$(CPP) -c chicken.cpp -o chicken.o $(CXXFLAGS)
+
+chickenegg.o: chickenegg.cpp
+	$(CPP) -c chickenegg.cpp -o chickenegg.o $(CXXFLAGS)
+
+trash2.o: trash2.cpp
+	$(CPP) -c trash2.cpp -o trash2.o $(CXXFLAGS)
+
+beefrolade.o: beefrolade.cpp
+	$(CPP) -c beefrolade.cpp -o beefrolade.o $(CXXFLAGS)
+
+butter.o: butter.cpp
+	$(CPP) -c butter.cpp -o butter.o $(CXXFLAGS)
+
+chickenmeat.o: chickenmeat.cpp
+	$(CPP) -c chickenmeat.cpp -o chickenmeat.o $(CXXFLAGS)
+
+omelet.o: omelet.cpp
+	$(CPP) -c omelet.cpp -o omelet.o $(CXXFLAGS)

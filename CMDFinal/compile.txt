@@ -1,0 +1,83 @@
+javac ./src/Cell.java
+
+javac ./src/Creation.java
+
+javac ./src/Map.java
+
+javac ./src/Player.java
+
+javac ./src/Renderable.java
+
+javac ./src/Vision.java
+
+javac ./products/FarmProduct.java
+
+javac ./products/Product.java
+
+javac ./products/SideProduct.java
+
+javac ./products/side/BeefRolade.java
+
+javac ./products/side/Butter.java
+
+javac ./products/side/Omelet.java
+
+javac ./products/farm/ChickenEgg.java
+
+javac ./products/farm/ChickenMeat.java
+
+javac ./products/farm/CowMeat.java
+
+javac ./products/farm/CowMilk.java
+
+javac ./products/farm/DuckEgg.java
+
+javac ./products/farm/DuckMeat.java
+
+javac ./products/farm/GoatMeat.java
+
+javac ./products/farm/GoatMilk.java
+
+javac ./products/farm/GooseEgg.java
+
+javac ./products/farm/GooseMeat.java
+
+javac ./products/farm/SheepMeat.java
+
+javac ./land/Barn.java
+
+javac ./land/Coop.java
+
+javac ./land/Grassland.java
+
+javac ./land/Land.java
+
+javac ./farmanimal/Chicken.java
+
+javac ./farmanimal/Cow.java
+
+javac ./farmanimal/Duck.java
+
+javac ./farmanimal/EggProducingFarmAnimal.java
+
+javac ./farmanimal/FarmAnimal.java
+
+javac ./farmanimal/Goat.java
+
+javac ./farmanimal/Goose.java
+
+javac ./farmanimal/MeatProducingFarmAnimal.java
+
+javac ./farmanimal/MilkProducingFarmAnimal.java
+
+javac ./farmanimal/Sheep.java
+
+javac ./facilities/Facility.java
+
+javac ./facilities/Mixer.java
+
+javac ./facilities/Truck.java
+
+javac ./facilities/Well.java
+
+javac ./Frame1.java
